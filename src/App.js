@@ -11,7 +11,7 @@ import Experiences from './pages/Experiences.page';
 import './App.css';
 
 const App = () => {
-  const baseUrl = 'https://willl-8523.github.io/portfolio';
+  const baseUrl = 'https://willl-8523.github.io/portfolio-deploy';
 
   return (
     <div className="flex">
