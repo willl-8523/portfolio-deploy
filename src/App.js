@@ -20,12 +20,12 @@ const App = () => {
           className="bg-main-color font-poppins min-h-screen w-5/6 px-2"
         >
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="formations" element={<Formations />} />
             <Route path="competences" element={<Competences />} />
             <Route path="experiences" element={<Experiences />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
       </Router>
