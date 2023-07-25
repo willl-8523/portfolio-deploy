@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif !important;
+}
+
+/* ******************* MEDIA QUERIES **************** */
+@media screen and (max-width: 1024px) {
+    .sidebarHide {
+        position: fixed;
+        width: 224px;
+        min-height: 100vh;
+        z-index: 10;
+        transform: translateX(-300%);
+        transition: transform .3s ease-in-out;
+    }
+
+    .sidebarShow {
+        position: fixed;
+        width: 224px;
+        min-height: 100vh;
+        z-index: 10;
+        transform: translateX(0%);
+        transition: transform .3s ease-in-out;
+    }
+
+    /* Menu Burger */
+    .burger-menu {
+        transition: transform .3s ease-in-out;
+    }
+
+    .line-top {
+        transform: translateY(3px) rotate(225deg);
+        transform-origin: center;
+    }
+
+    .line-bottom {
+        transform: translateY(-3px) rotate(-225deg);
+        transform-origin: center;
+    }
+
+    #menu {
+        width: 168px;
+    }
+
+    #main {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header-home-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .show {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .competenceHeader h1,
+    .experienceHeader h1,
+    .contactHeader h1,
+    .formationHeader h1 {
+        font-size: 1.50rem;
+    }
+
+    .competenceHeader p,
+    .experienceHeader p,
+    .contactHeader p,
+    .formationHeader p {
+        font-size: 0.75rem;
+    }
+
+    .navButton {
+        width: 100%;
+    }
+
+    .navButton button {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .portfolioCard {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .navButton button {
+        font-size: 10px;
+        padding: 0.125rem;
+    }
+
+    .card {
+        padding: 0.375rem 0;
+    }
+
+    .card img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+        width: 50%;
+        margin: auto;
+    }
+
+    .timeline-item h3 {
+        font-size: 0.875rem;
+    }
+
+    .fieldContainer,
+    .portfolioCard {
+        width: 100%;
+    }
+
+    .fieldInput {
+        flex-direction: column;
+    }
+
+    .field {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .navButton button {
+        font-size: 10px;
+        padding: 0.125rem;
+    }
+
+    .card {
+        padding: 0.375rem 0;
+    }
+
+    .card img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+        width: 50%;
+        margin: auto;
+    }
+
+    .timeline-item h3 {
+        font-size: 0.875rem;
+    }
+
+    .fieldContainer,
+    .portfolioCard {
+        width: 100%;
+    }
+
+    .fieldInput {
+        flex-direction: column;
+    }
+
+    .field {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+        font-size: 1.2em;
+    }
+
+    #title span {
+        font-size: .83em;
+    }
+
+    .title-content-home {
+        font-size: .9rem;
+    }
+
+    .description-content-home {
+        font-size: 0.87em;
+        padding-right: 0px;
+    }
+
+    .services {
+        align-items: start;
+    }
+
+    .service-description {
+        font-size: 70%;
+    }
+
+    .navButton button {
+        font-size: 10px;
+        padding: 0.125rem;
+    }
+
+    .card {
+        padding: 0.375rem 0;
+    }
+
+    .card img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .card p {
+        font-size: 0.75rem;
+        width: 50%;
+        margin: auto;
+    }
+
+    .timeline-item h3 {
+        font-size: 0.875rem;
+    }
+
+    .fieldContainer,
+    .portfolioCard {
+        width: 100%;
+    }
+
+    .fieldInput {
+        flex-direction: column;
+    }
+
+    .field {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    #title {
+        font-size: 1.1em;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+
+    .title-content-home {
+        font-size: .7rem
+    }
+
+    .services-title {
+        font-size: .85em;
+    }
+
+    .timeline-item-content {
+        padding-right: 0;
+    }
+}

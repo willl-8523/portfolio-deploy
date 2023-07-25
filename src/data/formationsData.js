@@ -1,0 +1,48 @@
+const Data = [
+  {
+    id: 1,
+    debut: 'Mai',
+    fin: 'Déc',
+    annee: '2022',
+    label: 'Développeur web et web mobile',
+    ecole: 'AFPA – Roubaix',
+    lien: 'https://www.afpa.fr/centre/centre-de-roubaix',
+    description: 'Partie Back-End et Bases de Données (PHP, Symfony, MySQL)',
+    icon: 'award',
+  },
+  {
+    id: 2,
+    debut: 'Avr',
+    fin: 'Mai',
+    annee: '2022',
+    label: 'Techniques de base d’applications',
+    ecole: 'AFPA – Roubaix',
+    lien: 'https://www.afpa.fr/centre/centre-de-roubaix',
+    description: 'Algorithme et partie Front-End (HTML, CSS, JavaScript)',
+    icon: 'award',
+  },
+  {
+    id: 3,
+    debut: 'Nov',
+    fin: 'Déc',
+    annee: '2021',
+    label: "Certificat d'acquisition de compétences JavaScript",
+    ecole: 'JavaScript de zero',
+    lien: 'https://www.javascriptdezero.com/',
+    description: 'Algorithme et partie Front-End (JavaScript)',
+    icon: 'award',
+  },
+  {
+    id: 4,
+    debut: 'Sept',
+    fin: 'Juil',
+    annee: '2012-2014',
+    label: 'BTS Informatique et Réseau pour les Industries et Services',
+    ecole: 'Lycée André Malraux - Béthune',
+    lien: 'https://andre-malraux-bethune.enthdf.fr/',
+    description: 'Base de programation informatique',
+    icon: 'award',
+  },
+];
+
+export default Data;
