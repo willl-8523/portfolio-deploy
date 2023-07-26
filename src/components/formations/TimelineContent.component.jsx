@@ -15,17 +15,17 @@ const TimelineContent = ({
     <div className="timeline-item">
       <div className="timeline-item-content items-start text-left bg-white rounded-md shadow-shadow-card flex flex-col p-3.5 relative w-97">
         <time className="bg-davy-grey text-main-color text-xs p-1 mt-2 mb-3 rounded-sm flex">
-          <i className="pt-0.5 fa-regular fa-calendar-days mr-1"></i> {debut} -{' '}
-          {fin} <br /> {annee}
+          <i className="pt-0.5 bx bxs-calendar mr-1"></i> {debut} - {fin} <br />{' '}
+          {annee}
         </time>
 
         <h3 className="p-1 mb-2 font-extrabold flex">
-          <i className={`pt-1 fa-solid fa-${icon} mr-1`}></i>
+          <i className={`pt-1 bx bxs-${icon} mr-1`}></i>
           {label}
         </h3>
         {ecole && (
           <h4 className="p-1 mb-2 text-base flex">
-            <i className=" pt-0.5 fa-solid fa-school mr-1"></i>{' '}
+            <i className="flex items-center bx bxs-school mr-1"></i>{' '}
             <Link
               className="hover:text-link hover:underline"
               to={lien}
