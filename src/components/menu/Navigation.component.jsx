@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import LinkNav from './Link-nav.component';
 import { SidebarContext } from '../../contexts/Sidebar.context';
+import LinkNav from './Link-nav.component';
 
 const Navigation = () => {
   const [currentRoute, setCurrentRoute] = useState();
