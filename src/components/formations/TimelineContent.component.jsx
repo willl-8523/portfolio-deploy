@@ -20,7 +20,7 @@ const TimelineContent = ({
         </time>
 
         <h3 className="p-1 mb-2 font-extrabold flex">
-          <i className={`pt-1 bx bxs-${icon} mr-1`}></i>
+          <i className={`pt-1 bx bx-${icon} mr-1`}></i>
           {label}
         </h3>
         {ecole && (
