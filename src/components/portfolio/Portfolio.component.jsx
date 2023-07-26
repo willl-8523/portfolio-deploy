@@ -30,9 +30,6 @@ const PortfolioComponent = ({
                   className={`p-1 text-10px flex justify-between items-center gap-1.5 rounded text-main-color ${technoCol}`}
                 >
                   {techno.toUpperCase()}
-                  <i
-                    className={`fab fa-${techno} hover:scale-125 duration-300 `}
-                  ></i>
                 </div>
               );
             })}
