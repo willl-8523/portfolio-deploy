@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-deploy/static/css/main.dd58c2c2.css",
-    "main.js": "/portfolio-deploy/static/js/main.8f12103e.js",
+    "main.css": "/portfolio-deploy/static/css/main.19f9e976.css",
+    "main.js": "/portfolio-deploy/static/js/main.4d734ee2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-deploy/static/js/787.1ed0c42c.chunk.js",
     "static/media/propar.png": "/portfolio-deploy/static/media/propar.83deb2edc15815f66af0.png",
     "static/media/foodity.png": "/portfolio-deploy/static/media/foodity.f9f4b62da14ccfa82341.png",
@@ -32,14 +32,15 @@
     "static/media/trello-svgrepo-com.svg": "/portfolio-deploy/static/media/trello-svgrepo-com.b5de597256ad2ad654a91ea2429a913b.svg",
     "static/media/git.svg": "/portfolio-deploy/static/media/git.dfaa519a4ef34f3511c8a6f5883a89dc.svg",
     "static/media/webpack-original.svg": "/portfolio-deploy/static/media/webpack-original.c9e9d576580951ce446abf9dc117240d.svg",
+    "static/media/download.svg": "/portfolio-deploy/static/media/download.f1e6bffeea4cf6f6cd57e00069aec127.svg",
     "static/media/html5-plain.svg": "/portfolio-deploy/static/media/html5-plain.a33c1c0d4571123009f6d11cbf22f5c8.svg",
     "static/media/tailwind-svgrepo-com.svg": "/portfolio-deploy/static/media/tailwind-svgrepo-com.93c44e2cb957210536bd80b009710571.svg",
-    "main.dd58c2c2.css.map": "/portfolio-deploy/static/css/main.dd58c2c2.css.map",
-    "main.8f12103e.js.map": "/portfolio-deploy/static/js/main.8f12103e.js.map",
+    "main.19f9e976.css.map": "/portfolio-deploy/static/css/main.19f9e976.css.map",
+    "main.4d734ee2.js.map": "/portfolio-deploy/static/js/main.4d734ee2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-deploy/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd58c2c2.css",
-    "static/js/main.8f12103e.js"
+    "static/css/main.19f9e976.css",
+    "static/js/main.4d734ee2.js"
   ]
 }
