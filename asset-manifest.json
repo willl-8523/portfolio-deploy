@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-deploy/static/css/main.dd58c2c2.css",
-    "main.js": "/portfolio-deploy/static/js/main.8c3b4f53.js",
+    "main.js": "/portfolio-deploy/static/js/main.bb4604d2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-deploy/static/js/787.1ed0c42c.chunk.js",
     "static/media/propar.png": "/portfolio-deploy/static/media/propar.83deb2edc15815f66af0.png",
     "static/media/foodity.png": "/portfolio-deploy/static/media/foodity.f9f4b62da14ccfa82341.png",
@@ -35,11 +35,11 @@
     "static/media/html5-plain.svg": "/portfolio-deploy/static/media/html5-plain.a33c1c0d4571123009f6d11cbf22f5c8.svg",
     "static/media/tailwind-svgrepo-com.svg": "/portfolio-deploy/static/media/tailwind-svgrepo-com.93c44e2cb957210536bd80b009710571.svg",
     "main.dd58c2c2.css.map": "/portfolio-deploy/static/css/main.dd58c2c2.css.map",
-    "main.8c3b4f53.js.map": "/portfolio-deploy/static/js/main.8c3b4f53.js.map",
+    "main.bb4604d2.js.map": "/portfolio-deploy/static/js/main.bb4604d2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-deploy/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd58c2c2.css",
-    "static/js/main.8c3b4f53.js"
+    "static/js/main.bb4604d2.js"
   ]
 }
