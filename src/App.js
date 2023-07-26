@@ -1,5 +1,4 @@
 import {
-  BrowserRouter,
   Route,
   BrowserRouter as Router,
   Routes,
@@ -18,7 +17,6 @@ import Portfolio from './pages/Portfolio.page';
 const App = () => {
   return (
     <div className="flex">
-      <BrowserRouter>
         <Router basename="/portfolio-deploy">
           <Menu />
           <main
@@ -35,7 +33,6 @@ const App = () => {
             </Routes>
           </main>
         </Router>
-      </BrowserRouter>
       <ToastContainer position="top-center" />
     </div>
   );
