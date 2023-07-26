@@ -6,7 +6,7 @@ const experiencesData = [
     annee: '2022',
     label: 'SAS Foodity',
     description: 'Refonte et responsive de l’application foodity.fr',
-    icon: 'building',
+    icon: 'buildings',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const experiencesData = [
     label: 'Enviro Services France (Wambrechies)',
     description:
       'Technicien : Réparation appareils téléphoniques et électroménagers',
-    icon: 'building',
+    icon: 'buildings',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const experiencesData = [
     label: 'Enviro Services France (Wambrechies)',
     description:
       'Intérimaire ouvrier : Réparation appareils téléphoniques et électroménagers',
-    icon: 'building',
+    icon: 'buildings',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const experiencesData = [
     label: 'Silicon Salad (Lille)',
     description:
       'Stagiaire Intégrateur HTML/CSS : Mise à jour de la partie Front-end de l’application web',
-    icon: 'building',
+    icon: 'buildings',
   },
 ];
 
