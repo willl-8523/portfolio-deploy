@@ -21,20 +21,20 @@ const App = () => {
         >
           <Routes>
             <Route
-              path="formations"
+              path="/portfolio-deploy/formations"
               element={<Formations />}
             />
             <Route
-              path="competences"
+              path="/portfolio-deploy/competences"
               element={<Competences />}
             />
             <Route
-              path="experiences"
+              path="/portfolio-deploy/experiences"
               element={<Experiences />}
             />
-            <Route path="portfolio" element={<Portfolio />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<Home />} />
+            <Route path="/portfolio-deploy/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio-deploy/contact" element={<Contact />} />
+            <Route path="/portfolio-deploy/*" element={<Home />} />
           </Routes>
         </main>
       </Router>
