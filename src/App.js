@@ -1,14 +1,14 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Menu from './components/menu/Menu.component';
-import Home from './pages/Home.page';
-import Competences from './pages/Competences.page';
-import Portfolio from './pages/Portfolio.page';
-import Contact from './pages/Contact.page';
-import Formations from './pages/Formations.page';
-import Experiences from './pages/Experiences.page';
 import './App.css';
+import Menu from './components/menu/Menu.component';
+import Competences from './pages/Competences.page';
+import Contact from './pages/Contact.page';
+import Experiences from './pages/Experiences.page';
+import Formations from './pages/Formations.page';
+import Home from './pages/Home.page';
+import Portfolio from './pages/Portfolio.page';
 
 const App = () => {
   return (
