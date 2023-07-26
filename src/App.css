@@ -58,6 +58,13 @@
     .show {
         display: block;
     }
+
+    .experienceHeader img,
+    .portfolioHeader img {
+        width: 4%;
+        height: 4%;
+        padding-bottom: .2rem;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -65,14 +72,16 @@
     .competenceHeader h1,
     .experienceHeader h1,
     .contactHeader h1,
-    .formationHeader h1 {
-        font-size: 1.50rem;
+    .formationHeader h1,
+    .portfolioHeader h1 {
+        font-size: 1rem;
     }
 
     .competenceHeader p,
     .experienceHeader p,
     .contactHeader p,
-    .formationHeader p {
+    .formationHeader p,
+    .portfolioHeader p {
         font-size: 0.75rem;
     }
 
@@ -89,45 +98,6 @@
 @media screen and (max-width: 730px) {
     .portfolioCard {
         width: 50%;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .navButton button {
-        font-size: 10px;
-        padding: 0.125rem;
-    }
-
-    .card {
-        padding: 0.375rem 0;
-    }
-
-    .card img {
-        width: 30%;
-        height: 30%;
-    }
-
-    .card p {
-        font-size: 0.75rem;
-        width: 50%;
-        margin: auto;
-    }
-
-    .timeline-item h3 {
-        font-size: 0.875rem;
-    }
-
-    .fieldContainer,
-    .portfolioCard {
-        width: 100%;
-    }
-
-    .fieldInput {
-        flex-direction: column;
-    }
-
-    .field {
-        max-width: 100%;
     }
 }
 
@@ -235,6 +205,15 @@
 }
 
 @media screen and (max-width: 385px) {
+
+    .competenceHeader h1,
+    .experienceHeader h1,
+    .contactHeader h1,
+    .formationHeader h1,
+    .portfolioHeader h1 {
+        font-size: .79rem;
+    }
+
     #title {
         font-size: 1.1em;
     }
