@@ -1,4 +1,9 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Route,
+  BrowserRouter as Router,
+  Routes,
+} from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
@@ -13,31 +18,24 @@ import Portfolio from './pages/Portfolio.page';
 const App = () => {
   return (
     <div className="flex">
-      <Router basename="/portfolio-deploy">
-        <Menu />
-        <main
-          id="main"
-          className="bg-main-color font-poppins min-h-screen w-5/6 px-2"
-        >
-          <Routes>
-            <Route
-              path="/portfolio-deploy/formations"
-              element={<Formations />}
-            />
-            <Route
-              path="/portfolio-deploy/competences"
-              element={<Competences />}
-            />
-            <Route
-              path="/portfolio-deploy/experiences"
-              element={<Experiences />}
-            />
-            <Route path="/portfolio-deploy/portfolio" element={<Portfolio />} />
-            <Route path="/portfolio-deploy/contact" element={<Contact />} />
-            <Route path="/portfolio-deploy/*" element={<Home />} />
-          </Routes>
-        </main>
-      </Router>
+      <BrowserRouter>
+        <Router basename="/portfolio-deploy">
+          <Menu />
+          <main
+            id="main"
+            className="bg-main-color font-poppins min-h-screen w-5/6 px-2"
+          >
+            <Routes>
+              <Route path="formations" element={<Formations />} />
+              <Route path="competences" element={<Competences />} />
+              <Route path="experiences" element={<Experiences />} />
+              <Route path="portfolio" element={<Portfolio />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="*" element={<Home />} />
+            </Routes>
+          </main>
+        </Router>
+      </BrowserRouter>
       <ToastContainer position="top-center" />
     </div>
   );
