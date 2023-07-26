@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import CompetenceCard from '../components/competences/CompetenceCard.component';
 import {
   backEnd,
   baseDeDonnee,
@@ -9,6 +8,7 @@ import {
 } from '../data/competencesData';
 import ButtonNav from '../components/competences/ButtonNav.component';
 import CompetenceCard from '../components/competences/CompetenceCard.component';
+import Graduation from '../assets/logo_competences/laptop-code.png';
 
 const Competences = () => {
   const [competencesList, setCompetencesList] = useState();
@@ -35,7 +35,12 @@ const Competences = () => {
       <div className="min-h-screen">
         <div className="competenceHeader max-w-full basis-full flex-flex-xs-12 px-2 py-5 text-center text-very-dark-gray">
           <h1 className="text-32px font-black uppercase tracking-widest my-2.5 relative">
-            <i className="fa-solid fa-laptop-code"></i> Compétences
+            <img
+              src={Graduation}
+              className="w-[5%] h-[5%] pb-0.5 inline-block"
+              alt="graduation-cap-img"
+            />{' '}
+            Compétences
           </h1>
           <p className="leading-7 tracking-wider font-light text-sm">
             En tant que développeur web passionné, je suis prêt à relever de

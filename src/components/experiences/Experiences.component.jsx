@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import TimelineContent from '../formations/TimelineContent.component';
 import '../formations/formation.style.css';
 import experiencesData from '../../data/experiencesData';
+import Graduation from '../../assets/logo_competences/briefcase.png';
 
 const FormationsComponent = () => {
   return (
@@ -10,7 +11,12 @@ const FormationsComponent = () => {
       <div className="flex flex-wrap flex-row min-h-screen">
         <div className="experienceHeader max-w-full basis-full flex-flex-xs-12 px-2 py-5 text-center text-very-dark-gray">
           <h1 className="text-32px font-black uppercase tracking-widest my-2.5 relative">
-            <i className="fa-solid fa-briefcase"></i> Experiences
+            <img
+              src={Graduation}
+              className="w-[3%] h-[3%] pb-1.5 inline-block"
+              alt="graduation-cap-img"
+            />{' '}
+            Experiences
           </h1>
           <p className="leading-7 tracking-wider font-light text-sm">
             Plongez dans mon parcours professionnel à travers cette timeline

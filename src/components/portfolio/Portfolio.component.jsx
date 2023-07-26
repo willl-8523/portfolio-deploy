@@ -31,7 +31,7 @@ const PortfolioComponent = ({
                 >
                   {techno.toUpperCase()}
                   <i
-                    className={`fa-brands fa-${techno} hover:scale-125 duration-300 `}
+                    className={`fab fa-${techno} hover:scale-125 duration-300 `}
                   ></i>
                 </div>
               );

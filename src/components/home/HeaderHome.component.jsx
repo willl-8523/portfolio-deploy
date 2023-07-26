@@ -8,7 +8,7 @@ const HeaderHome = () => {
       <section className="text-white text-center leading-9 max-w-60 mx-auto tracking-widest">
         <h5 className="uppercase text-center">Ngo Mbenock Wilfried</h5>
         <h1 id="title" className="uppercase font-black text-32px pb-2.5 my-2.5">
-          Développeur web{' '}<br />
+          Développeur web <br />
           <span className="normal-case mx-2">Symfony et ReactJS</span>
         </h1>
         <div className="animate-beating">
@@ -16,9 +16,16 @@ const HeaderHome = () => {
             to={CV}
             download
             target="_blank"
-            className="w-40 p-2.5 text-sm bg-davy-grey rounded-lg hover:bg-menuBg duration-300"
+            className="animate-beating w-28 mx-auto flex justify-center gap-1 p-2.5 text-sm bg-davy-grey rounded-lg hover:bg-menuBg duration-300 "
           >
-            CV PDF <i className="fa-sharp fa-solid fa-download"></i>
+            CV PDF{' '}
+            <img
+              src={
+                require('../../assets/logo_competences/download.svg').default
+              }
+              className='pt-0.5'
+              alt="download-img"
+            />
           </Link>
         </div>
       </section>
