@@ -87,7 +87,7 @@ const Competences = () => {
               />
             </ul>
           </nav>
-          <div className="p-6 mt-6 flex flex-wrap justify-center items-center gap-5 text-center">
+          <div className="competence-list p-6 mt-6 flex flex-wrap justify-center items-center gap-5 text-center">
             {competencesList &&
               competencesList.map((competence) => {
                 const { id, image, titre } = competence;
