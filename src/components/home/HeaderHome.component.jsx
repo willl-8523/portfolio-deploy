@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CV from '../../assets/CV_Mbenock_Wilfried.pdf';
 
 const HeaderHome = () => {
@@ -12,10 +11,9 @@ const HeaderHome = () => {
           <span className="normal-case mx-2">Symfony et ReactJS</span>
         </h1>
         <div className="animate-beating">
-          <Link
-            to={CV}
-            download
-            target="_blank"
+          <a
+            href={CV}
+            download="CV_Mbenock_Wilfried.pdf" // Nom du fichier téléchargé
             className="animate-beating w-28 mx-auto flex justify-center gap-1 p-2.5 text-sm bg-davy-grey rounded-lg hover:bg-menuBg duration-300 "
           >
             CV PDF{' '}
@@ -26,7 +24,7 @@ const HeaderHome = () => {
               className='pt-0.5'
               alt="download-img"
             />
-          </Link>
+          </a>
         </div>
       </section>
     </header>
