@@ -6,7 +6,7 @@ const Header = ({ imgProfil, firstName, lastName }) => {
     <header>
       <Link to="/">
         <img
-          className="rounded-full bg-white w-36 h-36 object-cover mx-auto border-2 image-profil"
+          className="rounded-full bg-white w-28 h-28 object-cover mx-auto image-profil"
           src={imgProfil}
           alt={`avatar ${lastName}`}
         />
