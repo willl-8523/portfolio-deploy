@@ -13,7 +13,7 @@ const HeaderHome = () => {
         <div className="animate-beating">
           <a
             href={CV}
-            download="CV_Mbenock_Wilfried.pdf" // Nom du fichier téléchargé
+            rel="noopener noreferrer" // Bonne pratique pour les liens ouverts dans un nouvel onglet
             className="animate-beating w-28 mx-auto flex justify-center gap-1 p-2.5 text-sm bg-davy-grey rounded-lg hover:bg-menuBg duration-300 "
           >
             CV PDF{' '}
@@ -21,7 +21,7 @@ const HeaderHome = () => {
               src={
                 require('../../assets/logo_competences/download.svg').default
               }
-              className='pt-0.5'
+              className="pt-0.5"
               alt="download-img"
             />
           </a>
