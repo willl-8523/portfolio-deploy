@@ -14,6 +14,7 @@ const HeaderHome = () => {
           <a
             href={CV}
             rel="noopener noreferrer" // Bonne pratique pour les liens ouverts dans un nouvel onglet
+            target='_blank'
             className="animate-beating w-28 mx-auto flex justify-center gap-1 p-2.5 text-sm bg-davy-grey rounded-lg hover:bg-menuBg duration-300 "
           >
             CV PDF{' '}
