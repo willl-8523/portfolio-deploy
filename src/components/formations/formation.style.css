@@ -21,11 +21,7 @@
     position: relative;
     width: 50%;
 }
-/* .timeline-item-content:after {
-    box-shadow: -1px 1px 1px rgba(0, 0, 0, .2);
-    left: -7.5px;
-    right: auto;
-} */
+
 .timeline-item-content:after {
     background-color: #fff;
     box-shadow: 1px -1px 1px rgba(0, 0, 0, .2);
@@ -64,4 +60,8 @@
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
     left: -40px;
     right: auto;
+}
+
+.arrow::after {
+    content: '▶';
 }

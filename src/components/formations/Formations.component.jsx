@@ -41,6 +41,7 @@ const FormationsComponent = () => {
                 lien,
                 ecole,
                 description,
+                certification,
                 icon,
               } = data;
               return (
@@ -53,6 +54,7 @@ const FormationsComponent = () => {
                   ecole={ecole}
                   lien={lien}
                   description={description}
+                  certification={certification}
                   icon={icon}
                 />
               );

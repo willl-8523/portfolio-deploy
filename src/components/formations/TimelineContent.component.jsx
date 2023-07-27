@@ -9,6 +9,7 @@ const TimelineContent = ({
   ecole = null,
   lien = null,
   description = null,
+  certification = null,
   icon,
 }) => {
   return (
@@ -24,16 +25,25 @@ const TimelineContent = ({
           {label}
         </h3>
         {ecole && (
-          <h4 className="p-1 mb-2 text-base flex">
-            <i className="flex items-center bx bxs-school mr-1"></i>{' '}
-            <Link
-              className="hover:text-link hover:underline"
-              to={lien}
+          <>
+            <h4 className="p-1 mb-2 text-base flex">
+              <i className="pt-1 bx bxs-school mr-1"></i>{' '}
+              <Link
+                className="hover:text-link hover:underline"
+                to={lien}
+                target="_blank"
+              >
+                {ecole}
+              </Link>
+            </h4>
+            {certification && (<Link
+              className="arrow p-1 mb-2 text-sm font-semibold hover:underline"
+              to={certification}
               target="_blank"
             >
-              {ecole}
-            </Link>
-          </h4>
+              Voir certification {' '}
+            </Link>)}
+          </>
         )}
         <p className="p-1 mb-2 italic">{description}</p>
         <span className="circle"></span>
