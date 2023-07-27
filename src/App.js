@@ -17,7 +17,7 @@ import Portfolio from './pages/Portfolio.page';
 const App = () => {
   return (
     <div className="flex">
-        <Router basename="/portfolio-deploy">
+        <Router>
           <Menu />
           <main
             id="main"
