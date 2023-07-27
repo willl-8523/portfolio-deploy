@@ -23,14 +23,15 @@ const Data = [
       { id: 2, techno: 'css3', technoCol: 'bg-css3' },
       { id: 3, techno: 'bootstrap', technoCol: 'bg-bootstrap' },
     ],
-    vue: 'https://willl-8523.github.io/Permaculture/',
+    vue: 'https://github.com/willl-8523/Permaculture',
   },
   {
     id: 3,
     image: require('../assets/propar.png'),
     img_dec: 'propar_img',
     nom: 'PROPAR',
-    description: 'le but est de gérer une société de nettoyage destinée aux pros et particuliers',
+    description:
+      'le but est de gérer une société de nettoyage destinée aux pros et particuliers',
     technos: [
       { id: 1, techno: 'html5', technoCol: 'bg-html5' },
       { id: 2, techno: 'css3', technoCol: 'bg-css3' },

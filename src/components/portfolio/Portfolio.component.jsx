@@ -36,10 +36,10 @@ const PortfolioComponent = ({
           </div>
           <Link
             to={vue}
-            className="text-center font-bold text-red-color  p-1 text-xs hover:underline duration-300"
+            className="text-center font-bold text-red-color p-1 text-sm hover:underline duration-300"
             target="_blank"
           >
-            Voir le projet
+            <i class="bx bxl-github"></i> {'>'} Code source
           </Link>
         </div>
       </div>
